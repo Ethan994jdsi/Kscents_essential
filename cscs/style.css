@@ -1,0 +1,27 @@
+@import url("auralayers.css");
+@import url("navbar.css");
+@import url("hero.css");
+@import url("about.css");
+@import url("product.css");
+* {
+  box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: #faf8f2;
+  }
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+  }
+  @keyframes buttonpop {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }

@@ -1,0 +1,117 @@
+.product-section {
+  padding: 10px 20px 0 100px;
+  text-align: flex-start;
+  justify-content: center;
+  min-height: 100vh;
+}
+.product-section h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.scent-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: flex-start;
+}
+.scent1-body  ul {
+    display: flex;
+    gap: 18px;
+    margin: 0;
+    padding: 4px 3px;
+    list-style: none;
+    text-align: row;
+    margin-top: auto;
+  }
+.scent1-body  ul li {
+    border-radius: 4px;
+}
+.scent1-body  ul li:hover {
+    background: #615548;
+    color: #fff;
+}
+.scent1,.scent2, .scent3 {
+  position: relative;
+  width: 300px;
+  min-height: 380px;
+  overflow: visible;
+  background: #F5E6C8;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  font-family: system-ui, sans-serif;
+  border-radius: 8px 8px 8px 8px;
+}
+
+.scent1:hover,.scent2:hover, .scent3:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.scent1-img,.scent2-img, .scent3-img {
+  height: 240px;
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  display: block;
+}
+
+.scent1-body,.scent2-body, .scent3-body {
+  padding: 16px;
+  flex: 1;
+}
+
+.scent1-title,.scent2-title, .scent3-title {
+  margin: 0 0 8px;
+  font-size: 1.1rem;
+  color: #222;
+}
+
+.scent1-text,.scent2-text, .scent3-text {
+  margin: 0 0 16px;
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.4;
+}
+.scent1-price, .scent2-price, .scent3-price{
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  color: #3a2a1a;
+  background-color: white;
+  border-radius: 8px;
+  padding: 4px 8px;
+  width: auto;
+}
+.scent1-btn, .scent2-btn, .scent3-btn {
+  background: #615548;
+  color: white;
+  border: none;
+  margin-top: 8px;
+  padding: 8px 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.scent1-body  ul, 
+.scent2-body  ul, 
+.scent3-body  ul {
+    display: flex;
+    gap: 18px;
+    margin: 0;
+    padding: 4px 3px;
+    list-style: none;
+    text-align: row;
+    margin-top: auto;
+  }
+.scent1-body  ul li,
+.scent2-body  ul li,
+.scent3-body  ul li {
+    border-radius: 4px;
+}
+.scent1-body  ul li:hover,
+.scent2-body  ul li:hover,
+.scent3-body  ul li:hover {
+    background: #615548;
+    color: #fff;
+}

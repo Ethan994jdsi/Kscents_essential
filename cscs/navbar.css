@@ -1,0 +1,42 @@
+header {
+  background: #F5E6C8;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+.nav-bar ul {
+  list-style: none;
+  display: flex;
+  gap: 56px;
+  margin: 0;
+  padding: 16px 24px;
+}
+.nav-bar li a {
+  text-decoration: none;
+  color: #3a2a1a; /* unchanged — neutral text */
+  font-weight: 500;
+  font-size: 26px;
+  display: inline-block;
+  padding: 0 0 0 5px;
+}
+.nav-bar ul li a {
+  position: relative;
+  transition: .3s;
+}
+.nav-bar ul li a:hover {
+  border-radius: 50px;
+  transform: scale(1.2);
+}
+.nav-bar ul li a::before {
+  position: absolute;
+  content: " ";
+  width: 0;
+  height: 2px;
+  background: #3a2a1a; /* was #f59e0b */
+  transition: .3s;
+  bottom: 0;
+  left: 0;
+}
+.nav-bar ul li a:hover::before {
+  width: 100%;
+}

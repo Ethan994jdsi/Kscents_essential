@@ -1,0 +1,21 @@
+
+:root {
+  /* Backgrounds */
+  --bg-page: #F4EDE2;
+  --bg-surface: #E9DCC6;
+  --bg-soft: #FBF7F0;
+
+  /* Brand */
+  --brand: #6F4E37;
+  --brand-dark: #2E2118;
+  --accent: #B8895B;
+
+  /* Text */
+  --text-main: #2E2118;
+  --text-muted: #6E5C4D;   
+  --text-on-brand: #FFF9F0;
+
+  /* Shadows */
+  --shadow-soft: rgba(46, 33, 24, 0.10);
+  --shadow-strong: rgba(46, 33, 24, 0.18);
+}

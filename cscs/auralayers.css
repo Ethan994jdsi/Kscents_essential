@@ -1,3 +1,4 @@
 body {
-  background: #FAF3E5;
+  background: var(--bg-page);
+  color: var(--text-main);
 }

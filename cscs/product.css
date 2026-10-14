@@ -13,48 +13,78 @@
   gap: 24px;
   justify-content: flex-start;
 }
-.scent1,.scent2, .scent3 {
+.scent1,
+.scent2,
+.scent3,
+.scent4,
+.scent5 {
   position: relative;
   width: 300px;
   min-height: 380px;
   overflow: visible;
   background: var(--bg-surface);
   box-shadow: 0 4px 12px var(--shadow-soft);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
   font-family: system-ui, sans-serif;
   border-radius: 8px;
 }
 
-.scent1:hover,.scent2:hover, .scent3:hover {
+.scent1:hover,
+.scent2:hover,
+.scent3:hover,
+.scent4:hover,
+.scent5:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 20px var(--shadow-strong);
 }
 
-.scent1-img,.scent2-img, .scent3-img {
+.scent1-img,
+.scent2-img,
+.scent3-img,
+.scent4-img,
+.scent5-img {
   width: 100%;
   height: 260px;
   object-fit: cover;
   display: block;
 }
 
-.scent1-body,.scent2-body, .scent3-body {
+.scent1-body,
+.scent2-body,
+.scent3-body,
+.scent4-body,
+.scent5-body {
   padding: 16px;
   flex: 1;
 }
 
-.scent1-title,.scent2-title, .scent3-title {
+.scent1-title,
+.scent2-title,
+.scent3-title,
+.scent4-title,
+.scent5-title {
   margin: 0 0 8px;
   font-size: 1.1rem;
   color: var(--text-main);
 }
 
-.scent1-text,.scent2-text, .scent3-text {
+.scent1-text,
+.scent2-text,
+.scent3-text,
+.scent4-text,
+.scent5-text {
   margin: 0 0 16px;
   font-size: 0.9rem;
   color: var(--text-muted);
   line-height: 1.4;
 }
-.scent1-price, .scent2-price, .scent3-price{
+.scent1-price,
+.scent2-price,
+.scent3-price,
+.scent4-price,
+.scent5-price {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -64,7 +94,11 @@
   padding: 4px 8px;
   width: auto;
 }
-.scent1-btn, .scent2-btn, .scent3-btn {
+.scent1-btn,
+.scent2-btn,
+.scent3-btn,
+.scent4-btn,
+.scent5-btn {
   background: var(--brand);
   color: var(--text-on-brand);
   border: none;
@@ -75,24 +109,30 @@
   font-size: 0.9rem;
 }
 
-.scent1-body  ul,
-.scent2-body  ul,
-.scent3-body  ul {
-    display: flex;
-    gap: 18px;
-    margin: 0;
-    padding: 4px 3px;
-    list-style: none;
-    margin-top: auto;
-  }
-.scent1-body  ul li,
-.scent2-body  ul li,
-.scent3-body  ul li {
-    border-radius: 4px;
+.scent1-body ul,
+.scent2-body ul,
+.scent3-body ul,
+.scent4-body ul,
+.scent5-body ul {
+  display: flex;
+  gap: 18px;
+  margin: 0;
+  padding: 4px 3px;
+  list-style: none;
+  margin-top: auto;
 }
-.scent1-body  ul li:hover,
-.scent2-body  ul li:hover,
-.scent3-body  ul li:hover {
-    background: var(--brand);
-    color: var(--text-on-brand);
+.scent1-body ul li,
+.scent2-body ul li,
+.scent3-body ul li,
+.scent4-body ul li,
+.scent5-body ul li {
+  border-radius: 4px;
+}
+.scent1-body ul li:hover,
+.scent2-body ul li:hover,
+.scent3-body ul li:hover,
+.scent4-body ul li:hover,
+.scent5-body ul li:hover {
+  background: var(--brand);
+  color: var(--text-on-brand);
 }
